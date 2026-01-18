@@ -1,21 +1,28 @@
+import MilkTea from "../assets/tea-1.png";
+import BlackTea from "../assets/tea-2.png";
+import LemonTea from "../assets/tea-3.png";
+import GreenTea from "../assets/tea-4.png";
 import TeaCard from "./TeaCard";
-
 const teaData = [
   {
     name: "Milk tea",
     description: "Creamer could be repleaced by fresh milk",
+    img: MilkTea,
   },
   {
     name: "Balck tea",
     description: "Creamer could be repleaced by fresh milk",
+    img: BlackTea,
   },
   {
     name: "Leamon tea",
     description: "Creamer could be repleaced by fresh milk",
+    img: LemonTea,
   },
   {
     name: "Green tea",
     description: "Creamer could be repleaced by fresh milk",
+    img: GreenTea,
   },
 ];
 const FeaturedProducts = () => {
@@ -32,6 +39,7 @@ const FeaturedProducts = () => {
             key={idx}
             name={tea.name}
             description={tea.description}
+            img={tea?.img}
           ></TeaCard>
         ))}
       </div>

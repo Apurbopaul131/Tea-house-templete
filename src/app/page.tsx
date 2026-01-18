@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import ClientReview from "@/components/ClientReview";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import GreatTea from "@/components/GreatTea";
+import NewsEvent from "@/components/NewsEvent";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <FeaturedProducts />
       <GreatTea />
       <ClientReview />
+      <NewsEvent />
     </main>
   );
 };

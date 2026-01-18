@@ -11,7 +11,7 @@ const ClientReview = () => {
           <p className="text-[#F4F4F4]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
+            humour, or randomised words which look even slightly
             believable.{" "}
           </p>
           <button className="py-3 px-5 text-[#FF0000] bg-white font-bold rounded-md">
