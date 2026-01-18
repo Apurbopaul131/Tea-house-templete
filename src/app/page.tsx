@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import ClientReview from "@/components/ClientReview";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import GreatTea from "@/components/GreatTea";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner></Banner>
       <FeaturedProducts />
       <GreatTea />
+      <ClientReview />
     </main>
   );
 };

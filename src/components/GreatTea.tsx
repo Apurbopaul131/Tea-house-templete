@@ -4,7 +4,7 @@ import BlueTea from "../assets/fresh-2.png";
 const GreatTea = () => {
   return (
     <section className="my-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="grid grid-cols-2 grid-rows-3 gap-4 border-2">
+      <div className="grid grid-cols-2 grid-rows-3 gap-4">
         <div className="bg-linear-to-r from-[#FF0000] to-[#FF8938] rounded-md"></div>
         <div className="bg-[#E6A6231A] rounded-md row-span-2 p-2">
           <Image
@@ -26,7 +26,7 @@ const GreatTea = () => {
         </div>
         <div className="bg-linear-to-r from-[#D9D9D9] to-[#FFFFFF] rounded-md"></div>
       </div>
-      <div className="space-y-4 border-2">
+      <div className="space-y-4">
         <h1 className="text-4xl font-bold">
           Great Tea, Freshly <br /> Presented
         </h1>
